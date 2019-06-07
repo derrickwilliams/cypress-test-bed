@@ -1,0 +1,15 @@
+{
+  "name": "cypress-test-bed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:derrickwilliams/cypress-test-bed.git",
+  "author": "Derrick W <derrick@shootproof.com>",
+  "license": "MIT",
+  "scripts": {
+    "e2e": "cypress open",
+    "e2e.run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}

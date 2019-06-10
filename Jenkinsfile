@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    dockerfile {
-      filename 'e2e'
+    docker {
+      image 'cypress/browsers:chrome67'
     }
 
   }
